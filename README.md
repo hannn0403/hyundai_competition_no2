@@ -46,6 +46,7 @@ python result.py
 
 ## Directory
 
+```
 project_root/
 ├── code/
 │   ├── augmentation/
@@ -67,6 +68,4 @@ project_root/
 │   └── train/
 ├── weights/
 └── result.csv                       # Submission File
-
-
-
+```
