@@ -5,7 +5,7 @@
 <img src="https://img.shields.io/badge/python-3.8-yellowgreen"/> 
 <img src="https://img.shields.io/badge/nltk-3.7-yellowgreen"/> 
 <img src="https://img.shields.io/badge/numpy-1.21.2-yellowgreen"/> 
-<img src="https://img.shields.io/badge/opencv-contrib-python-4.1.2-yellowgreen"/> 
+<img src="https://img.shields.io/badge/opencv-4.1.2-yellowgreen"/> 
 <img src="https://img.shields.io/badge/pandas-1.4.0-red"/> 
 <img src="https://img.shields.io/badge/pillow-8.4.0-red"/> 
 <img src="https://img.shields.io/badge/pytorch-1.10.2-blue"/>
