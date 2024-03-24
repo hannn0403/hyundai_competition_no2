@@ -18,54 +18,28 @@
 
 
 
-########## directory ##########
-└ code
-   └ augmentation
-      └ blur.py		Blurring Image
-      └ noise.py		Add noise to Image
-   └ model
-      └ feature_extraction.py	
-      └ prediction.py		
-      └ sequence_modeling.py	
-      └ transformation.py	
-   └ config.py		Configuration File
-   └ converter.py		Convert between text-label and text-index
-   └ dataset.py		Load dataset
-   └ ocrmodel.py		TPS Spatial Transformer-ResNet Feature Extractor-Bidirectonal LSTM-Attention Predictor
-   └ result.py		★ Make Submission File
-   └ train.py		Train / Validate Model
-└ datasets
-   └ test
-   └ train
-└ weights
-   └ 
-└ result.csv		★ Submission File
-
-########## Getting Start ##########
-python result.py
-
 ## Directory
 
 ```
 project_root/
 ├── code/
 │   ├── augmentation/
-│   │   ├── blur.py                  # Blurring Image
-│   │   └── noise.py                 # Add noise to Image
+│   │   ├── blur.py                  
+│   │   └── noise.py                 
 │   ├── model/
-│   │   ├── feature_extraction.py    # 
-│   │   ├── prediction.py            #
-│   │   ├── sequence_modeling.py     #
-│   │   └── transformation.py        #
-│   ├── config.py                    # Configuration File
-│   ├── converter.py                 # Convert between text-label and text-index
-│   ├── dataset.py                   # Load dataset
-│   ├── ocrmodel.py                  # TPS Spatial Transformer-ResNet Feature Extractor-Bidirectional LSTM-Attention Predictor
-│   ├── result.py                    # Make Submission File
-│   └── train.py                     # Train / Validate Model
+│   │   ├── feature_extraction.py     
+│   │   ├── prediction.py            
+│   │   ├── sequence_modeling.py     
+│   │   └── transformation.py        
+│   ├── config.py                    
+│   ├── converter.py                 
+│   ├── dataset.py                   
+│   ├── ocrmodel.py                  
+│   ├── result.py                    
+│   └── train.py                     
 ├── datasets/
 │   ├── test/
 │   └── train/
 ├── weights/
-└── result.csv                       # Submission File
+└── result.csv                       
 ```
