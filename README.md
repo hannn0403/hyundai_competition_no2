@@ -2,6 +2,22 @@
 
 This repository implements an end-to-end OCR pipeline to recognize alphanumeric text from images using a TPS‑ResNet‑BiLSTM‑Attention model with data augmentation.
 
+## ❗️ Project Summary
+
+---
+
+1. **진행기간:** 2022.01 ~ 2022.02
+2. **팀명: 현대중공업떡상기원** (한주혁, 차준영, 김민성)
+3. **역할:** 프로젝트 리더, 외부 데이터 수집 및 새로운 데이터 샘플 생성
+4. **기술스택: `Python`**, **`PyTorch`**, **`timm`** 
+5. **결과 및 성과:** 
+    - 최종보고서 [**[📄]**](https://drive.google.com/file/d/1A59tbe-t8AxI-XemlvMK8jSnxUAGaznz/view?usp=drive_link)
+    - https://github.com/hannn0403/hyundai_competition_no2
+    - [현대중공업그룹] 제 2회 조선/해양산업 디지털 혁신을 위한 Big Data / AI 대학생 경진대회 장려상 수상.
+6. **주요내용:** 강재 문자 인식 과제에서는 HandWritten Data 7,732개와 Printing Data 300개로 인한 극심한 데이터 불균형과 HandWritten Data에서 글자 굵기가 지나치게 두꺼워 식별이 어려운 문제를 해결하기 위해, EMINST와 Chars 74K Data를 추가 수집하여 두 데이터셋을 보완한 후, Morphological Transformation과 Unsharp Masking 기법을 활용하여 이미지 샤프닝 처리를 진행하였다. 이후 TPS Spatial Transformation, ResNet Feature Extraction, Bidirectional LSTM, Attention Prediction으로 구성된 OCR 파이프라인을 적용하여 모델을 학습 및 예측하였고, 79.21%의 Accuracy와 95.55%의 1-NED를 달성하였다.
+
+---
+
 ## Prerequisites
 
 - Python 3.7+
